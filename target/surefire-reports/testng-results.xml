@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-06T10:10:43 CET" name="Command line suite" finished-at="2021-02-06T10:13:15 CET" duration-ms="152132">
+    <groups>
+    </groups>
+    <test started-at="2021-02-06T10:10:43 CET" name="Command line test" finished-at="2021-02-06T10:13:15 CET" duration-ms="152132">
+      <class name="pack.Test_titre">
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.Test_titre@6cf0e0ba]" started-at="2021-02-06T10:13:15 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T10:13:15 CET" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void pack.Test_titre.Test1(java.lang.String,java.lang.String) requires a @DataProvider named : getdata]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void pack.Test_titre.Test1(java.lang.String,java.lang.String) requires a @DataProvider named : getdata
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:559)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:772)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- pack.Test_titre -->
+      <class name="pack.Test_Fcb">
+        <test-method is-config="true" signature="avant()[pri:0, instance:pack.Test_Fcb@4f83df68]" started-at="2021-02-06T10:10:43 CET" name="avant" finished-at="2021-02-06T10:11:40 CET" duration-ms="57272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avant -->
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.Test_Fcb@4f83df68]" started-at="2021-02-06T10:11:40 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T10:11:42 CET" duration-ms="1809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdp1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="avant()[pri:0, instance:pack.Test_Fcb@4f83df68]" started-at="2021-02-06T10:11:42 CET" name="avant" finished-at="2021-02-06T10:12:34 CET" duration-ms="51435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avant -->
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.Test_Fcb@4f83df68]" started-at="2021-02-06T10:12:34 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T10:12:34 CET" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdp2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="avant()[pri:0, instance:pack.Test_Fcb@4f83df68]" started-at="2021-02-06T10:12:34 CET" name="avant" finished-at="2021-02-06T10:13:15 CET" duration-ms="40836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avant -->
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.Test_Fcb@4f83df68]" started-at="2021-02-06T10:13:15 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T10:13:15 CET" duration-ms="131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdp3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- pack.Test_Fcb -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
